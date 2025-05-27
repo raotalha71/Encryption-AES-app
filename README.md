@@ -10,9 +10,6 @@ This app features a modern UI, supports multiple screens, and uses the GetX pack
 - **Modern UI:** Uses Google Fonts and a custom hacker-themed background.
 - **Navigation:** Smooth navigation with GetX.
 
-## Screenshots
-
-*(Add screenshots here if available)*
 
 ## Getting Started
 

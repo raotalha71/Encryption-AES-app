@@ -146,12 +146,12 @@ class _FilePickerWidgetState extends State<FilePickerWidget> {
       if (kIsWeb) {
         encryptedBytes = _selectedFileBytes!;
         outputFileName =
-            (_selectedFileName ?? 'file').replaceAll('.enc', '') + '.dec';
+            '${(_selectedFileName ?? 'file').replaceAll('.enc', '')}.dec';
       } else {
         final file = io.File(_selectedFilePath!);
         encryptedBytes = await file.readAsBytes();
         outputFileName =
-            (_selectedFileName ?? 'file').replaceAll('.enc', '') + '.dec';
+            '${(_selectedFileName ?? 'file').replaceAll('.enc', '')}.dec';
       }
 
       if (encryptedBytes.length < 17) {

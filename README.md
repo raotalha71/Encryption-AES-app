@@ -23,7 +23,7 @@ This app features a modern UI, supports multiple screens, and uses the GetX pack
 
 1. **Clone the repository:**
     ```sh
-    git clone <your-repo-url>
+    git clone https://github.com/raotalha71/Encryption-AES-app.git
     cd Encryption-AES-app
     ```
 
